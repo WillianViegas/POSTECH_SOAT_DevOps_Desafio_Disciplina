@@ -29,7 +29,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-          package: '*.jax'
+          package: '*.jar'
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
